@@ -7,6 +7,7 @@ import About from "./pages/About";
 import Contact from './pages/Contact';
 import TaskManager from './pages/TaskManager';
 import Footer from "./components/Footer";
+import Login from "./pages/Login"
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <div className="container">
         <Switch>
           {/* you can only match ONE route inside */}
+          <Route exact path="/login" component={Login} />
           <Route exact path="/contact" component={Contact} />
           <Route exact path="/taskManager" component={TaskManager} />
           {/* take home for anything else */}
