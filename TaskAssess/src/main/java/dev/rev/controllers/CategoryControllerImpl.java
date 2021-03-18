@@ -68,7 +68,7 @@ public class CategoryControllerImpl implements CategoryController {
 	}
 
 	@Override
-	@DeleteMapping(value = "/users/{id}")
+	@DeleteMapping(value = "/category/{id}")
 	public boolean deleteCategory(int id) {
 		try {
 			return catser.deleteCategory(id);
