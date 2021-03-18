@@ -10,6 +10,6 @@ import dev.rev.beans.Category;
 @Repository
 public interface CategoryRepo extends CrudRepository<Category, Integer> {
 	
-	public Category findByCategory(String category);
+	public Category findByName(String category);
 	public List<Category> findByColor(String color);
 }
