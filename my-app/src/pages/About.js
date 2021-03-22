@@ -24,6 +24,12 @@ const About = () => {
 
                 </Col>
             </Row>
+            <Row>
+                <Col>
+                    <p>Test</p>
+                    
+                </Col>
+            </Row>
 
         </>
     )
